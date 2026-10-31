@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10110d">
+<meta name="description" content="Swoopdry — We swoop you dry. A new kind of laundry-care platform, preparing to launch neighbourhood by neighbourhood across Mumbai.">
+<title>Swoopdry — We swoop you dry.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#10110d;--panel:#191b15;--paper:#f4f3ed;--lime:#d7ff35;--orange:#ff603b;--white:#f7f7f2;--muted:#a2a397;--line:rgba(255,255,255,.14)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1240px,88%);margin:auto}.topline{height:34px;background:var(--lime);color:#111;font-size:10px;font-weight:900;letter-spacing:1.7px;display:flex;align-items:center;justify-content:center;gap:12px}.topline b{font-size:14px}.nav{height:84px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.logo{display:flex;align-items:center;gap:10px;font:700 27px "Space Grotesk";letter-spacing:-1.7px}.logo-mark{height:34px;width:34px;border-radius:11px 11px 11px 3px;background:var(--lime);color:#111;display:grid;place-items:center;font-weight:900;font-size:21px;transform:rotate(-5deg)}.logo em{font-style:normal;color:var(--lime)}.navlinks{display:flex;align-items:center;gap:35px;font-size:12px;font-weight:700;color:#d7d8cf}.navlinks a:hover{color:var(--lime)}.navbtn{background:var(--lime);color:#111;padding:14px 19px;border-radius:3px;font-weight:900}.navbtn span{margin-left:15px}.hamb{display:none;background:none;color:white;border:0;font-size:25px}
+.hero{min-height:690px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:20px;padding:70px 0 80px;position:relative}.kicker{font-size:10px;font-weight:900;letter-spacing:2px;color:var(--lime);display:flex;align-items:center;gap:10px}.kicker:before{content:"";width:28px;height:2px;background:var(--orange)}h1,h2,h3,p{margin-top:0}h1{font:700 clamp(66px,8.5vw,118px)/.84 "Space Grotesk";letter-spacing:-8px;margin:28px 0 28px}h1 .line2{display:block;color:var(--lime)}h1 .line3{display:block;color:transparent;-webkit-text-stroke:1.5px var(--white)}.hero-copy>p{font-size:15px;line-height:1.8;color:#b9baaf;max-width:440px}.actions{display:flex;gap:24px;align-items:center;margin-top:34px}.primary{display:inline-flex;align-items:center;gap:35px;background:var(--lime);color:#111;padding:17px 21px;font-size:12px;font-weight:900;border-radius:3px;transition:.2s}.primary:hover{transform:translateY(-4px);box-shadow:0 10px 30px #d7ff3530}.plainlink{font-size:12px;font-weight:800}.plainlink span{color:var(--orange);font-size:17px;margin-left:8px}.hero-meta{display:flex;align-items:center;gap:13px;margin-top:56px;color:#898b80;font-size:10px;letter-spacing:.8px}.hero-meta i{width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 5px #ff603b25}.visual{height:500px;position:relative;display:grid;place-items:center}.orb{position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f0ff8b,#d7ff35 48%,#a3c51e 100%);filter:drop-shadow(0 30px 55px #0008)}.orb:after{content:"";position:absolute;inset:22px;border:1px solid #1112;border-radius:50%}.fabric-stack{position:absolute;width:360px;height:330px;z-index:2;transform:rotate(-8deg)}.cloth{position:absolute;border-radius:45% 35% 22% 18%;box-shadow:inset -15px -15px 25px #0002,inset 10px 10px 25px #ffffff3b,0 20px 35px #0003}.cloth.a{background:#f5f0e4;width:310px;height:145px;left:20px;top:35px;transform:rotate(12deg)}.cloth.b{background:var(--orange);width:320px;height:155px;left:35px;top:125px;transform:rotate(-9deg)}.cloth.c{background:#22251e;width:275px;height:120px;left:45px;top:220px;transform:rotate(8deg)}.cloth:after{content:"";position:absolute;inset:15px;border-radius:inherit;border-top:1px solid #ffffff5c;border-left:1px solid #ffffff35}.fabric-label{position:absolute;z-index:4;top:33px;left:40px;color:#111;font-size:10px;line-height:1.2;font-weight:900;letter-spacing:1.2px}.fabric-label strong{display:block;font:700 34px "Space Grotesk";letter-spacing:-2px}.orbit{position:absolute;z-index:3;border:1px solid #1116;width:470px;height:190px;border-radius:50%;transform:rotate(-28deg)}.sticker{position:absolute;z-index:5;background:var(--orange);color:#fff;font-size:10px;letter-spacing:1px;font-weight:900;padding:15px 18px;box-shadow:5px 6px 0 #0a0b08;transform:rotate(8deg)}.sticker.one{top:48px;right:2%}.sticker.two{bottom:38px;left:0;background:var(--paper);color:#111;transform:rotate(-7deg)}.sticker.two b{color:var(--orange)}.star{position:absolute;color:var(--lime);font-size:42px;z-index:5}.star.s1{right:2%;top:155px}.star.s2{left:4%;top:95px;color:var(--orange);font-size:27px}.hero-index{position:absolute;bottom:25px;left:0;right:0;display:flex;align-items:center;gap:15px;color:#77796f;font-size:9px;letter-spacing:1.8px;font-weight:900}.hero-index .rule{height:1px;background:var(--line);flex:1}
+.marquee{overflow:hidden;background:var(--lime);color:#111;padding:18px 0}.marquee-track{display:flex;justify-content:space-around;gap:40px;white-space:nowrap;font:700 17px "Space Grotesk";letter-spacing:2px}.marquee b{color:var(--orange);font-size:22px}
+.section{padding:110px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:54px}.section-head h2,.services-head h2,.coverage h2,.partner h2,.contact h2{font:700 clamp(45px,6vw,76px)/.94 "Space Grotesk";letter-spacing:-4px;margin:20px 0 0}.stroke{color:transparent;-webkit-text-stroke:1px var(--white)}.section-head>p{max-width:360px;color:var(--muted);font-size:13px;line-height:1.8;margin:0 0 5px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:var(--panel);padding:25px 26px 30px;min-height:290px;position:relative;overflow:hidden;border:1px solid #ffffff0c}.step:after{content:"";position:absolute;width:160px;height:160px;border:1px solid #ffffff12;border-radius:50%;right:-65px;bottom:-75px}.stepno{display:flex;justify-content:space-between;font-size:10px;font-weight:900;color:#888b7d}.stepno b{color:var(--lime);font-size:18px}.stepart{height:115px;display:grid;place-items:center;color:var(--lime);font-size:75px;font-family:"Space Grotesk";text-shadow:4px 5px 0 #ff603b}.step h3{font:700 23px "Space Grotesk";letter-spacing:-1px;margin:0 0 9px}.step p{color:var(--muted);font-size:11px;line-height:1.7;max-width:260px;margin:0}
+.services{background:var(--paper);color:#111;padding:105px 0}.services .kicker{color:#333}.services .kicker:before{background:var(--orange)}.services-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:45px}.services-head h2{margin:18px 0 0}.services-head h2 .lime{color:#89a900}.services-head p{max-width:300px;color:#6b6c63;font-size:13px;line-height:1.8;margin:0 0 5px}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #1113;border-left:1px solid #1113}.service{min-height:205px;padding:20px 21px;border-right:1px solid #1113;border-bottom:1px solid #1113;position:relative;transition:.2s}.service:hover{background:var(--lime);transform:translateY(-3px)}.service small{font-size:9px;font-weight:900;color:#777}.service .symbol{display:block;font-size:34px;margin:18px 0 13px;color:var(--orange)}.service h3{font:700 19px "Space Grotesk";letter-spacing:-.7px;margin:0 0 8px}.service p{font-size:10px;line-height:1.6;color:#707168;max-width:190px;margin:0}.service .arrow{position:absolute;right:18px;top:18px;font-size:17px}.service.wide{grid-column:span 2}
+.coverage{background:var(--lime);color:#111;padding:100px 0;overflow:hidden;position:relative}.coverage-inner{display:grid;grid-template-columns:1fr .8fr;align-items:center;gap:40px}.coverage .kicker{color:#222}.coverage .kicker:before{background:var(--orange)}.coverage h2{margin:22px 0}.coverage h2 .darkstroke{color:transparent;-webkit-text-stroke:1.4px #111}.coverage p{font-size:13px;line-height:1.8;color:#50552f;max-width:440px}.darkbtn{display:inline-flex;gap:35px;background:#111;color:white;padding:16px 20px;font-size:11px;font-weight:900;margin-top:15px}.darkbtn span{color:var(--lime)}.mapart{height:300px;position:relative;display:grid;place-items:center}.mapring{width:270px;height:240px;border:2px dashed #1118;border-radius:46% 54% 40% 60%;transform:rotate(-20deg);display:grid;place-items:center}.mapring:before,.mapring:after{content:"";position:absolute;border:1px solid #1118;border-radius:50%;width:190px;height:155px;transform:rotate(50deg)}.mapring:after{width:130px;height:200px;transform:rotate(-50deg)}.mapm{font:700 150px "Space Grotesk";color:#111;z-index:1}.pin{position:absolute;top:22px;right:10%;font-size:55px;color:var(--orange);text-shadow:3px 3px #111}.mapcaption{position:absolute;bottom:3px;right:0;font-size:9px;letter-spacing:1.5px;font-weight:900}
+.partner{padding:105px 0;position:relative}.partner-row{display:grid;grid-template-columns:1fr .75fr;gap:60px;align-items:end;margin-top:22px}.partner h2{margin:0}.partner p{font-size:13px;line-height:1.8;color:var(--muted);max-width:420px}.partner .primary{margin-top:12px}.asterisk{position:absolute;right:8%;top:65px;font-size:60px;color:var(--orange)}
+.contact{background:var(--orange);color:#111;padding:100px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}.contact .kicker{color:#25150f}.contact .kicker:before{background:#111}.contact h2{font-size:clamp(60px,7vw,90px);margin:25px 0}.contact h2 .stroke{-webkit-text-stroke-color:#111}.contact-intro{max-width:360px;font-size:13px;line-height:1.8;color:#53291e}.contact-links{padding-top:4px}.contact-link{display:flex;align-items:center;gap:17px;padding:17px 0;border-bottom:1px solid #1114}.contact-icon{height:43px;width:43px;border:1px solid #111;border-radius:50%;display:grid;place-items:center;font-size:18px}.contact-link small{display:block;font-size:8px;font-weight:900;letter-spacing:1.4px;margin-bottom:4px}.contact-link strong{font:700 19px "Space Grotesk"}.contact-link .arr{margin-left:auto;font-size:20px}.launchbox{margin-top:27px;padding:23px;background:#ffffff30}.launchbox h3{font:700 20px "Space Grotesk";margin:0 0 7px}.launchbox p{font-size:11px;line-height:1.7;color:#51281d}.launchbox a{display:inline-flex;background:#111;color:white;padding:14px 18px;font-size:11px;font-weight:900;gap:28px}.launchbox a span{color:var(--lime)}
+footer{padding:26px 0;background:#090a08}.footerrow{display:flex;align-items:center;justify-content:space-between;gap:20px}.footnote{font-size:9px;letter-spacing:1.4px;color:#77796f}.footnote b{color:var(--lime)}.footlinks{display:flex;gap:20px;font-size:10px;color:#b9baaf}
+.reveal{opacity:1;transform:none;transition:opacity .7s ease,transform .7s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:850px){.navlinks{gap:18px}.hero{grid-template-columns:1fr;padding-top:65px}.visual{height:440px}.hero-index{bottom:20px}.section-head,.services-head{display:block}.section-head>p,.services-head>p{margin-top:24px}.service-grid{grid-template-columns:repeat(2,1fr)}.coverage-inner{grid-template-columns:1fr}.mapart{margin-top:30px}.partner-row{grid-template-columns:1fr;gap:20px}.contact-grid{grid-template-columns:1fr;gap:35px}}
+@media(max-width:620px){.wrap{width:88%}.nav{height:70px}.hamb{display:block}.navlinks{display:none;position:absolute;z-index:10;top:104px;left:0;right:0;background:#171912;padding:25px 6%;flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.navbtn{text-align:center}.hero{padding:55px 0 75px;min-height:0}.hero h1{font-size:68px;letter-spacing:-5px}.hero-copy>p{font-size:13px}.visual{height:360px;margin-top:5px}.orb{width:300px;height:300px}.fabric-stack{transform:scale(.78) rotate(-8deg)}.orbit{width:340px;height:140px}.sticker.one{right:0;top:20px}.sticker.two{left:0;bottom:20px}.section,.services,.coverage,.partner,.contact{padding:75px 0}.section-head h2,.services-head h2,.coverage h2,.partner h2{font-size:49px}.steps{grid-template-columns:1fr}.step{min-height:250px}.stepart{height:85px}.service-grid{grid-template-columns:1fr 1fr}.service{min-height:185px;padding:15px}.service.wide{grid-column:span 2}.coverage h2{font-size:53px}.mapart{height:250px}.mapring{width:220px;height:205px}.mapm{font-size:125px}.contact-grid{gap:25px}.contact h2{font-size:68px}.footerrow{align-items:flex-start;flex-direction:column}.footlinks{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="topline"><b>✳</b> MUMBAI, GET READY TO SWOOP <b>✳</b></div>
+<header class="wrap nav">
+  <a class="logo" href="#"><span class="logo-mark">S</span><span>swoop<span style="font-weight:400">dry</span><em>.</em></span></a>
+  <button class="hamb" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav class="navlinks"><a href="#how">HOW IT WORKS</a><a href="#services">SERVICES</a><a href="#partners">PARTNER WITH US</a><a class="navbtn" href="#contact">LET'S TALK <span>↗</span></a></nav>
+</header>
+<main>
+<section class="wrap hero">
+ <div class="hero-copy">
+  <div class="kicker">A FRESH TAKE ON LAUNDRY</div>
+  <h1>LAUNDRY?<span class="line2">WE'LL</span><span class="line3">SWOOP.</span></h1>
+  <p>Life moves fast. Laundry shouldn't slow you down. We're building a smarter way to get your clothes cleaned, cared for and back in your rotation.</p>
+  <div class="actions"><a class="primary" href="#contact">GET ON THE LIST <span>↗</span></a><a class="plainlink" href="#how">THE SWOOP WAY <span>↓</span></a></div>
+  <div class="hero-meta"><i></i> STARTING IN MUMBAI · ROLLING OUT AREA BY AREA</div>
+ </div>
+ <div class="visual" aria-label="Abstract folded laundry artwork">
+  <div class="orb"></div><div class="orbit"></div>
+  <div class="fabric-stack"><div class="fabric-label">FRESH LOOK.<strong>FRESH FEEL.</strong></div><div class="cloth a"></div><div class="cloth b"></div><div class="cloth c"></div></div>
+  <div class="sticker one">CLEAN CLOTHES.<br>NO CHAOS.</div><div class="sticker two">YOUR DAY, <b>BACK.</b> ↗</div><div class="star s1">✳</div><div class="star s2">✦</div>
+ </div>
+ <div class="hero-index"><span>01 / THE NEW ROUTINE</span><span class="rule"></span><span>SCROLL TO EXPLORE ↓</span></div>
+</section>
+<div class="marquee"><div class="marquee-track"><span>WASH</span><b>✳</b><span>DRY CLEAN</span><b>✳</b><span>IRON</span><b>✳</b><span>FOLD</span><b>✳</b><span>DELIVER</span><b>✳</b><span>REPEAT</span><b>✳</b><span>WASH</span><b>✳</b><span>DRY CLEAN</span><b>✳</b><span>IRON</span><b>✳</b><span>FOLD</span></div></div>
+<section class="wrap section" id="how">
+ <div class="section-head reveal"><div><div class="kicker">NO COMPLICATED ROUTINES</div><h2>THREE STEPS.<br><span class="stroke">ONE LESS CHORE.</span></h2></div><p>We're designing a convenient laundry experience that brings pickup, garment care and delivery together — with a phased neighbourhood rollout.</p></div>
+ <div class="steps">
+  <article class="step reveal"><div class="stepno"><span>STEP 01</span><b>↗</b></div><div class="stepart">▱</div><h3>We swoop it up.</h3><p>Request a pickup when Swoopdry becomes available in your neighbourhood.</p></article>
+  <article class="step reveal"><div class="stepno"><span>STEP 02</span><b>✳</b></div><div class="stepart">✧</div><h3>Care takes over.</h3><p>Choose from everyday laundry, dry cleaning, ironing and more planned care services.</p></article>
+  <article class="step reveal"><div class="stepno"><span>STEP 03</span><b>↘</b></div><div class="stepart">▣</div><h3>Back in your day.</h3><p>Your clothes come back to you, ready for whatever you've got going on next.</p></article>
+ </div>
+ <p style="font-size:10px;color:#77796f;margin:18px 0 0">Pickup availability, turnaround times and service details will be confirmed as each area launches.</p>
+</section>
+<section class="services" id="services"><div class="wrap">
+ <div class="kicker">THE CARE MENU</div><div class="services-head"><h2>EVERY THREAD.<br><span class="lime">IN GOOD HANDS.</span></h2><p>From your daily essentials to the pairs you never want to retire. A little care goes a long way.</p></div>
+ <div class="service-grid">
+  <article class="service"><small>01 / EVERYDAY</small><span class="symbol">◌</span><h3>Washing</h3><p>For the everyday pile that never waits.</p><span class="arrow">↗</span></article>
+  <article class="service"><small>02 / SPECIAL CARE</small><span class="symbol">✧</span><h3>Dry cleaning</h3><p>Extra attention for the pieces that need it.</p><span class="arrow">↗</span></article>
+  <article class="service"><small>03 / SHARP LOOK</small><span class="symbol">⌁</span><h3>Ironing</h3><p>Crease-free confidence, from the first button.</p><span class="arrow">↗</span></article>
+  <article class="service"><small>04 / AT YOUR DOOR</small><span class="symbol">⇢</span><h3>Pickup & delivery</h3><p>Convenience planned around your doorstep.</p><span class="arrow">↗</span></article>
+  <article class="service"><small>05 / NEAT FINISH</small><span class="symbol">▤</span><h3>Folding</h3><p>Neatly done, ready for your wardrobe.</p><span class="arrow">↗</span></article>
+  <article class="service"><small>06 / SNEAKER RESET</small><span class="symbol">◉</span><h3>Shoe cleaning</h3><p>Give your everyday favourites a refresh.</p><span class="arrow">↗</span></article>
+  <article class="service wide"><small>07 / EXTRA ATTENTION</small><span class="symbol">✳</span><h3>Premium garment care</h3><p>Thoughtful care for the pieces you want to keep looking their best.</p><span class="arrow">↗</span></article>
+ </div>
+</div></section>
+<section class="coverage"><div class="wrap coverage-inner">
+ <div class="reveal"><div class="kicker">MUMBAI IS THE MISSION</div><h2>ONE CITY.<br><span class="darkstroke">MANY SWOOPS.</span></h2><p>Our ambition is city-wide laundry convenience, built one neighbourhood at a time. Tell us where you are — your area could be next on the map.</p><a class="darkbtn" href="https://wa.me/919824600531?text=Hi%20Swoopdry!%20Please%20consider%20my%20area%20for%20your%20launch.%20My%20area%3A" target="_blank" rel="noopener">PUT MY AREA ON THE MAP <span>↗</span></a></div>
+ <div class="mapart"><div class="mapring"><span class="mapm">M</span></div><span class="pin">✳</span><div class="mapcaption">MUMBAI / NEIGHBOURHOOD BY NEIGHBOURHOOD</div></div>
+</div></section>
+<section class="wrap partner" id="partners"><div class="asterisk">✳</div><div class="kicker">BETTER TOGETHER</div><div class="partner-row"><h2>HAVE A LAUNDRY?<br><span class="stroke">LET'S CONNECT.</span></h2><div><p>We're looking to connect with reliable laundry and garment-care businesses across Mumbai as we plan our rollout. If you care about doing good work, let's talk.</p><a class="primary" href="mailto:thakkardhairya67@gmail.com?subject=Swoopdry%20Partner%20Enquiry">BECOME A PARTNER <span>↗</span></a></div></div></section>
+<section class="contact" id="contact"><div class="wrap contact-grid">
+ <div><div class="kicker">YOUR AREA. OUR NEXT MOVE.</div><h2>LET'S MAKE<br><span class="stroke">ROOM FOR</span><br>MORE LIFE.</h2><p class="contact-intro">Want Swoopdry in your neighbourhood? Interested in partnering with us? Reach out and help shape what's next.</p></div>
+ <div class="contact-links">
+  <a class="contact-link" href="https://wa.me/919824600531?text=Hi%20Swoopdry!%20I'm%20interested%20in%20your%20launch." target="_blank" rel="noopener"><span class="contact-icon">↗</span><span><small>QUICK HELLO</small><strong>WhatsApp us</strong></span><span class="arr">↗</span></a>
+  <a class="contact-link" href="mailto:thakkardhairya67@gmail.com?subject=Swoopdry%20Enquiry"><span class="contact-icon">✉</span><span><small>BUSINESS ENQUIRIES</small><strong>Send an email</strong></span><span class="arr">↗</span></a>
+  <a class="contact-link" href="https://instagram.com/swoopdry" target="_blank" rel="noopener"><span class="contact-icon">◎</span><span><small>FOLLOW THE JOURNEY</small><strong>@swoopdry</strong></span><span class="arr">↗</span></a>
+  <div class="launchbox"><h3>Be part of the first swoop.</h3><p>Message us your name and Mumbai neighbourhood to register your interest. We'll use this to understand where people want us to launch first.</p><a href="https://wa.me/919824600531?text=Hi%20Swoopdry!%20I'd%20like%20to%20register%20interest.%20Name%3A%20%7C%20Mumbai%20area%3A" target="_blank" rel="noopener">JOIN THE INTEREST LIST <span>↗</span></a></div>
+ </div>
+</div></section>
+</main>
+<footer><div class="wrap footerrow"><a class="logo" href="#"><span class="logo-mark">S</span><span>swoop<span style="font-weight:400">dry</span><em>.</em></span></a><div class="footnote"><b>WE SWOOP YOU DRY.</b> &nbsp; MUMBAI, INDIA</div><div class="footlinks"><a href="#how">HOW IT WORKS</a><a href="#services">SERVICES</a><a href="#contact">CONTACT</a></div></div></footer>
+<script>
+(() => {
+  const menu = document.querySelector('.hamb');
+  const links = document.querySelector('.navlinks');
+
+  if (menu && links) {
+    menu.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      menu.setAttribute('aria-expanded', String(open));
+      menu.textContent = open ? '×' : '☰';
+    });
+
+    links.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        links.classList.remove('open');
+        menu.setAttribute('aria-expanded', 'false');
+        menu.textContent = '☰';
+      });
+    });
+  }
+
+  // Reveal animation is optional: keep all content visible if unsupported or unavailable.
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal, .step, .service').forEach((element) => {
+      element.classList.add('reveal');
+      observer.observe(element);
+    });
+  } else {
+    document.querySelectorAll('.reveal, .step, .service').forEach((element) => {
+      element.classList.add('show');
+    });
+  }
+})();
+</script>
+</body></html>
